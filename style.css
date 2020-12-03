@@ -13,6 +13,7 @@ body {
 a:hover {
     cursor: pointer;
     text-decoration: none;
+    
 }
 strong {
     font-weight: inherit;
@@ -165,7 +166,7 @@ a[data-lightbox]:hover::before {
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
-    z-index: 1;
+   
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -196,7 +197,7 @@ a[data-lightbox]:hover img {
 
 .cta-hero {
     margin-top: 22px;
-    color: black;
+    color: #000000;
     text-transform: uppercase;
     padding: 12px 28px;
     font-size: 16px;
@@ -305,10 +306,6 @@ form {
     height: 8em;
   }
   
-  .button {
-    padding-left: 90px; 
-  }
-  
   button {
     margin-left: .5em;
   }
@@ -316,7 +313,6 @@ form {
   button:hover{
       font-size: large;
   }
- 
 
 @font-face {
     font-family: et-line;
@@ -374,7 +370,7 @@ form {
        background-color: rgba(243, 151, 108, 1);  
     }
     .white{
-        color:black;
+        color:#000000;
     }
     header img {
         margin-left: 0;
