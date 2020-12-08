@@ -39,16 +39,11 @@ a:hover {
     cursor: pointer;
     font-size: x-large;
 }
-a{
-    text-decoration: none;
-}
+
 strong {
     font-weight: inherit;
   }
 
-header a {
-    margin-right: 50px;
-}
 a img{
     width: 270px;
     height: 270px;
@@ -57,6 +52,7 @@ a img{
 header{
     margin: 20px auto;
     height: 100px;
+    max-width: 1200px;
 }
 
 header img {
@@ -72,22 +68,28 @@ header img {
     margin: 20px auto;
 }
 
-.nave{
+nav{
     display: flex;
-    list-style: none;
     float: right;
     margin-top: 10px;
 }
-.nave li{
-    margin-right: 30px;   
-}
 
-.nave li a, header a{  
+li{
+    margin-right: 30px;
     color: #333333;
     font-size: 1.2em;
-    text-decoration: none;
+     
+}
+nav ul{
+    display: flex;
+    list-style: none;
 }
 
+#whiteUl li{
+    list-style: true;
+    color: #FFFFFF;
+    
+}
 
 .hg {
     height: 100px;
@@ -252,8 +254,6 @@ a[data-lightbox]:hover img {
     font-weight: 700;
 }
 
-
-
 .h1{
     font-size: 20px;
     font-family: "Open Sans";
@@ -387,10 +387,8 @@ form {
     content: "\e01c"
 }
 
-
 @media (max-width:768px) {
-    
-    
+      
     .bg-banniere {
         background-image: url("img/la-chouette-agence-smart.jpg");
     }
@@ -420,7 +418,6 @@ form {
     header img {
         margin-left: 0;
     }
-
     .services{
         flex-direction: column;
     }
