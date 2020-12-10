@@ -420,7 +420,7 @@ form {
         flex-direction: column;
     }
     .bloc-300-m{
-        margin: auto;
+        margin-right: 0;
     }
     
 }
